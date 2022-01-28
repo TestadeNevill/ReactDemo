@@ -13,3 +13,14 @@ app.listen(PORT, function () {
     console.log("App listening on PORT: " + PORT);
 });
 
+// let transporter = nodemailer.createTransport({
+//     service: "gmail",
+//     auth: {
+//       type: "OAuth2",
+//       user: process.env.user,
+//       pass: process.env.pass,
+//       clientId: process.env.OAUTH_CLIENTID,
+//       clientSecret: process.env.OAUTH_CLIENT_SECRET,
+//       refreshToken: process.env.OAUTH_REFRESH_TOKEN,
+//     },
+//    });
